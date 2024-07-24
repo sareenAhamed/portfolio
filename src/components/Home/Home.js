@@ -4,7 +4,7 @@ import sareen1 from '../../Assets/sareen1.png'
 
 const Home = () => {
   return (
-    <div className='container'>
+    <div className='container py-5'>
       <div className='row home-deatils'>
         <div className='col-12 col-md-6'>
           <div className='details'>
