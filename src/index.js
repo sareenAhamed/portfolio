@@ -6,8 +6,9 @@ import Navbar from '../src/components/Navbar/Navbar'
 import Home from '../src/components/Home/Home'
 import About from '../src/components/About/About'
 import Skills from '../src/components/Skills/Skills'
-import Work from '../src/components/Work/Work'
 import Final from '../src/components/Final/Final'
+import Work from '../src/components/Work/Work'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
