@@ -1,10 +1,13 @@
 import React from 'react'
+import { Element } from 'react-scroll'
 
 const Projects = () => {
   return (
-    <div>
-      <h2>Projects</h2>
-    </div>
+    <Element name='projects'>
+      <div>
+        <h2>Projects</h2>
+      </div>
+    </Element>
   )
 }
 

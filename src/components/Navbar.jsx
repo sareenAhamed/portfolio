@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import logo from '../assets/logo.png'
 import menu from  '../assets/menu.png'
 import cross from '../assets/cross.png'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const[click, setClick] = useState(false)
@@ -26,11 +26,11 @@ const Navbar = () => {
 
       <div className='md:flex'>
         <ul className={click ? "space-y-2 pb-3" : 'hidden md:flex md:gap-7 gap-4 justify-between mb-2'}>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='/'>Home</Link></li>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='/about'>About</Link></li>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='/skills'>Skills</Link></li>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='/projects'>Projects</Link></li>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='/contact'>Contact</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='home' smooth={true} duration={200}>Home</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='about' smooth={true} duration={200}>About</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='skills' smooth={true} duration={200}>Skills</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='projects' smooth={true} duration={200}>Projects</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='footer' smooth={true} duration={200}>Contact</Link></li>
         </ul>
       </div>
       
