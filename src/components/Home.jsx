@@ -3,8 +3,8 @@ import sareen1 from '../assets/sareen1.png'
 
 const Home = () => {
   return (
-    <div className='container mx-auto flex flex-col-reverse md:flex-row md:justify-between md:pt-10 md:items-center font-poppins'>
-      <div className='my-4 md:text-left md:w-1/2'>
+    <div className='container mx-auto flex flex-col-reverse md:flex-row md:justify-between md:pt-10 md:items-center font-poppins scroll-smooth'>
+      <div className='my-4 md:text-left md:w-1/2 text-center'>
         <div className='flex-col mb-5 '>
           <p className='text-slate-400 font-semibold py-1 text-xl md:text-2xl'>Hey, I'm <span className='text-3xl md:text-4xl text-slate-300'>Sareen Ahamed</span></p>
           <p className='font-semibold text-portGreen text-5xl md:text-5xl py-1 mt-3'>Front End Developer</p>
