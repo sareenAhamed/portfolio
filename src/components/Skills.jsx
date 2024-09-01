@@ -12,13 +12,13 @@ import { Element } from 'react-scroll'
 const Skills = () => {
   return (
     <Element name='skills'>
-      <div className='container mx-auto mt-28 font-poppins'>
+      <div className='container mx-auto pt-28 font-poppins'>
         <div className='mb-12'>
           <h2 className='text-white font-semibold text-4xl mb-5 text-center'>Skills</h2>
           <hr />
         </div>
 
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 pt-16'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
             <img className='w-24 h-24 ' src={html} alt="HTML 5" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>HTML 5</h2>

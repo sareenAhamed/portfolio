@@ -5,13 +5,13 @@ import { Element } from 'react-scroll'
 const About = () => {
   return (
     <Element name='about'>
-      <div className='container mx-auto mt-24 font-poppins scroll-smooth'>
+      <div className='container mx-auto pt-36 font-poppins'>
         <div>
           <h2 className='text-white font-semibold text-4xl mb-5 text-center'>About me</h2>
           <hr />
         </div>
 
-        <div className='flex flex-col md:flex-row pt-12 items-center'>
+        <div className='flex flex-col md:flex-row pt-8 items-center'>
           <div className='md:w-1/2'>
             <img className='w-auto h-auto' src={sareen2} alt="" />
           </div>
