@@ -13,6 +13,7 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 bg-slate-900 container mx-auto justify-between items-center text-portGreen font-manrope rounded px-3 font-semibold shadow-sm shadow-portGreen flex flex-col md:flex-row scroll-smooth'>
+      
       <div className='flex justify-center items-center'>
         <img className='h-24 w-40' src={logo} alt="SAREEN AHAMED" />
 
