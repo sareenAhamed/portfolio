@@ -19,7 +19,6 @@ const Home = () => {
 
         <div className='flex justify-center pt-5 mt-8'>
           <img className='w-auto h-auto' src={sareen1} alt="Hello" />
-          {/* w-60 h-60 md:h-96 md:w-96 */}
         </div>
         
       </div>
