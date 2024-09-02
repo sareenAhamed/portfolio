@@ -18,7 +18,6 @@ import mysql from '../assets/mysql.png'
 
 
 
-
 const Skills = () => {
   return (
     <Element name='skills'>
@@ -29,74 +28,75 @@ const Skills = () => {
         </div>
 
         <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14' src={html} alt="HTML 5" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>HTML 5</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
               <img className='w-14 h-14 ' src={css} alt="CSS 3" />
               <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>CSS 3</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={js} alt="JavaScript" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>JavaScript</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14' src={reactJs} alt="React JS" />     
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>React JS</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={reactNative} alt="React Native" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>React Native</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={tailwind} alt="Tailwind CSS" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Tailwind CSS</h2>
           </div>
           
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={redux} alt="Redux" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Redux</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={bootstrap} alt="Bootstrap" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Bootstrap</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={mysql} alt="MySQL" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>MySQL</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={java} alt="Java" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Java</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={vscode} alt="Vs Code" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Vs Code</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={git} alt="Git" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Git</h2>
           </div>
 
-          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
+          <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14 ' src={intellij} alt="Intellij" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Intellij</h2>
           </div>
 
-          
-        
+        </div>
 
+        <div className='px-3 text-center mt-12 text-lg'>
+          <p className='text-slate-400 '>I am a continuous learner, always eager to expand my knowledge and skills. I am confident that my dedication to learning will allow me to master even more skills in the future.</p>
         </div>
       </div>
     </Element>

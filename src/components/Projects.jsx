@@ -18,7 +18,7 @@ const Projects = () => {
         </div>
 
         {/* Add Projects */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-3 mt-12'>
           {/* Project 1 */}
           <div className='text-slate-400 bg-slate-800 m-4 px-2 pt-2 rounded hover:shadow-lg hover:shadow-portGreen transform translate-y-0 hover:-translate-y-3 duration-500'>
            <div className=''>
