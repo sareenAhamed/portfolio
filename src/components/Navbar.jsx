@@ -30,8 +30,8 @@ const Navbar = () => {
           <li className='hover:text-white md:text-xl text-md duration-500'><Link to='home' smooth={true} duration={200}>Home</Link></li>
           <li className='hover:text-white md:text-xl text-md duration-500'><Link to='about' smooth={true} duration={200}>About</Link></li>
           <li className='hover:text-white md:text-xl text-md duration-500'><Link to='skills' smooth={true} duration={200}>Skills</Link></li>
-          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='projects' smooth={true} duration={200}>Projects</Link></li>
           <li className='hover:text-white md:text-xl text-md duration-500'><Link to='education' smooth={true} duration={200}>Education</Link></li>
+          <li className='hover:text-white md:text-xl text-md duration-500'><Link to='projects' smooth={true} duration={200}>Projects</Link></li>
         </ul>
       </div>
       

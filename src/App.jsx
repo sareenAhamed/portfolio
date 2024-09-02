@@ -18,8 +18,8 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Projects />
       <Education />
+      <Projects />
       <Footer />
 
       
