@@ -20,43 +20,43 @@ const Skills = () => {
 
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-            <img className='w-24 h-24 ' src={html} alt="HTML 5" />
+            <img className='w-14 h-14' src={html} alt="HTML 5" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>HTML 5</h2>
             <p className='text-slate-400'>It provides modern web structure, multimedia support, and enhanced performance.</p>
           </div>
 
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-              <img className='w-24 h-24 ' src={css} alt="CSS 3" />
+              <img className='w-14 h-14 ' src={css} alt="CSS 3" />
               <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>CSS 3</h2>
               <p className='text-slate-400'>It enables responsive design, advanced styling, and dynamic visual effects.</p>
           </div>
 
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-            <img className='w-24 h-24 ' src={js} alt="JavaScript" />
+            <img className='w-14 h-14 ' src={js} alt="JavaScript" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>JavaScript</h2>
             <p className='text-slate-400'>It powers interactivity, dynamic content, and real-time functionality on websites.</p>
           </div>
 
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-            <img className='w-24 h-24 ' src={reactJs} alt="React JS" />     
+            <img className='w-14 h-14' src={reactJs} alt="React JS" />     
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>React JS</h2>
             <p className='text-slate-400'>It simplifies building dynamic, reusable components and enhances performance.</p>
           </div>
 
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-          <img className='w-24 h-24 ' src={reactNative} alt="React Native" />
+          <img className='w-14 h-14 ' src={reactNative} alt="React Native" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>React Native</h2>
             <p className='text-slate-400'>It enables cross-platform mobile apps with a single codebase, ensuring fast development and native performance.</p>
           </div>
 
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-          <img className='w-24 h-24 ' src={tailwind} alt="Tailwind CSS" />
+          <img className='w-14 h-14 ' src={tailwind} alt="Tailwind CSS" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Tailwind CSS</h2>
             <p className='text-slate-400'>It offers utility-first styling, rapid customization, and streamlined responsive design.</p>
           </div>
           
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center'>
-          <img className='w-24 h-24 ' src={redux} alt="Redux" />
+          <img className='w-14 h-14 ' src={redux} alt="Redux" />
           <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Redux</h2>
           <p className='text-slate-400'>It manages application state predictably, making complex state management simpler and more maintainable.</p>
           </div>
