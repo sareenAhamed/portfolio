@@ -32,10 +32,13 @@ const Projects = () => {
               </p>
            </div>
            <div>
-            <p className='text-center my-4 '>Check out the project <br />
-              <a href="https://github.com/sareenAhamed/weatherApp">GitHub Page</a>
+            <p className='text-center my-4 text-white text-lg'>
+              <a href="https://github.com/sareenAhamed/weatherApp">Check out the GitHub page</a>
               <br />
-              <a href="https://weatherwithsareen.netlify.app/">View App</a>
+              <button className='bg-slate-900 text-portGreen px-5 py-2 rounded-full mt-4'>
+                <a href="https://weatherwithsareen.netlify.app/">View Project</a>
+              </button>
+              
               </p>
            </div>
             
@@ -54,10 +57,13 @@ const Projects = () => {
               </p>
            </div>
            <div>
-            <p className='text-center my-4 '>Check out the project <br />
-              <a href="https://github.com/sareenAhamed/weatherApp">GitHub Page</a>
+            <p className='text-center my-4 text-white text-lg'>
+              <a href="https://github.com/sareenAhamed/weatherApp">Check out the GitHub page</a>
               <br />
-              <a href="https://weatherwithsareen.netlify.app/">View App</a>
+              <button className='bg-slate-900 text-portGreen px-5 py-2 rounded-full mt-4'>
+                <a href="https://weatherwithsareen.netlify.app/">View Project</a>
+              </button>
+              
               </p>
            </div>
             
@@ -76,10 +82,13 @@ const Projects = () => {
               </p>
            </div>
            <div>
-            <p className='text-center my-4 '>Check out the project <br />
-              <a href="https://github.com/sareenAhamed/weatherApp">GitHub Page</a>
+            <p className='text-center my-4 text-white text-lg'>
+              <a href="https://github.com/sareenAhamed/weatherApp">Check out the GitHub page</a>
               <br />
-              <a href="https://weatherwithsareen.netlify.app/">View App</a>
+              <button className='bg-slate-900 text-portGreen px-5 py-2 rounded-full mt-4'>
+                <a href="https://weatherwithsareen.netlify.app/">View Project</a>
+              </button>
+              
               </p>
            </div>
             
