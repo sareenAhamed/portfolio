@@ -14,7 +14,6 @@ const Home = () => {
           </div>
           <div>
             <a href="#"><button className='bg-portGreen text-slate-700 font-semibold rounded px-3 py-1 hover:text-portGreen hover:bg-slate-700 m-2 duration-500 text-md md:text-lg'>Download CV</button></a>
-            <button className='bg-portGreen text-slate-700 font-semibold rounded px-3 py-1 hover:text-portGreen hover:bg-slate-700 m-2 duration-500 text-md md:text-lg'>Get in Touch</button>
           </div>
         </div>
 
