@@ -2,6 +2,7 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import weatherapp from '../assets/weatherapp.jpg'
 import cineseat from '../assets/cineseat.png'
+import quizapp from '../assets/quizApp.png'
 
 // motion
 import { motion } from 'framer-motion'
@@ -84,21 +85,21 @@ const Projects = () => {
           {/* Project 3 */}
           <div className='text-slate-400 bg-slate-800 m-4 px-2 pt-2 rounded hover:shadow-lg hover:shadow-portGreen transform translate-y-0 hover:-translate-y-3 duration-500'>
            <div className=''>
-            <img className='object-cover rounded h-52 w-72 mx-auto' src={weatherapp} alt="" />
+            <img className='object-cover rounded h-52 w-72 mx-auto' src={quizapp} alt="" />
            </div>
 
            <div className='mt-3'>
-            <p className='font-semibold text-white text-center my-2'>Weather App</p>
-              <p className='text-justify'>Utilizing real-time weather data from openweathermap.org, this app provides accurate and up-to-date weather information. This project has been an incredible journey in learning React JS and working with APIs, enhancing my front-end development skills.
+            <p className='font-semibold text-white text-center my-2'>Quiz App</p>
+              <p className='text-justify'>The Quiz App is a simple web application that allows users to take interactive quizzes. It features a user-friendly interface where questions are displayed, and users can select their answers. The app is designed to test knowledge on various topics, offering immediate feedback or results. The focus is likely on building a dynamic, using React for efficient rendering and state management.
 
               </p>
            </div>
            <div>
             <p className='text-center my-4 text-white text-lg'>
-              <a href="https://github.com/sareenAhamed/weatherApp">Check out the GitHub page</a>
+              <a href="https://github.com/sareenAhamed/quiz">Check out the GitHub page</a>
               <br />
               <button className='bg-slate-900 text-portGreen px-5 py-2 rounded-full mt-4'>
-                <a href="https://weatherwithsareen.netlify.app/">View Project</a>
+                <a href="https://myfirstreactquiz.netlify.app/">View Project</a>
               </button>
               
               </p>
