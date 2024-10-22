@@ -3,6 +3,11 @@ import { Element } from 'react-scroll'
 import unilogo from '../assets/unilogo.png'
 import schoolLogo from '../assets/schoollogo.png'
 
+// motion
+import { motion } from 'framer-motion'
+// variant
+import { fadeIn } from './varients/Variant.js'
+
 const Education = () => {
   return (
     <Element name='education'>
@@ -15,7 +20,12 @@ const Education = () => {
             
             <div className='flex flex-col md:flex-row justify-around pt-5'>
                 {/* Degree */}
-                <div className='flex justify-between mb-7'>
+                <motion.div className='flex justify-between mb-7'
+                    variants={fadeIn("right", 0.1)} 
+                    initial = "hidden" 
+                    whileInView={"show"} 
+                    viewport={{once: true, amount: 0.7}}>
+                        
                     <div className='w-1/3 ps-1'>
                         <img className='w-32 h-32' src={unilogo} alt="university logo" />
                     </div>
@@ -26,10 +36,15 @@ const Education = () => {
                         <p>2022 - Present</p>
                     </div>
                 
-                </div>
+                </motion.div>
     
                 {/* A/L */}
-                <div className='flex mb-7'>
+                <motion.div className='flex mb-7'
+                    variants={fadeIn("left", 0.1)} 
+                    initial = "hidden" 
+                    whileInView={"show"} 
+                    viewport={{once: true, amount: 0.7}}>
+
                     <div className='w-1/3'>
                         <img className='w-32 h-32' src={schoolLogo} alt="university logo" />
                     </div>
@@ -40,7 +55,7 @@ const Education = () => {
                         <p>2018 - 2020</p>
                     </div>
                 
-                </div>
+                </motion.div>
             </div>
             
         </div>

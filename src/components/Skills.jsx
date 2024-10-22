@@ -14,6 +14,11 @@ import vscode from '../assets/vscode.png'
 import java from '../assets/java.png'
 import mysql from '../assets/mysql.png'
 
+// motion
+import { motion } from 'framer-motion'
+// variant
+import { fadeIn } from './varients/Variant.js'
+
 
 
 
@@ -27,7 +32,12 @@ const Skills = () => {
           <hr />
         </div>
 
-        <div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6'>
+        <motion.div className='grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6'
+          variants={fadeIn("up", 0.1)} 
+          initial = "hidden" 
+          whileInView={"show"} 
+          viewport={{once: true, amount: 0.7}}>
+
           <div className='bg-slate-800 pt-5 m-3 rounded flex flex-col items-center pb-3 text-center shadow-md shadow-portGreen'>
             <img className='w-14 h-14' src={html} alt="HTML 5" />
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>HTML 5</h2>
@@ -93,7 +103,7 @@ const Skills = () => {
             <h2 className='mt-6 font-semibold text-portGreen text-xl mb-1'>Intellij</h2>
           </div>
 
-        </div>
+        </motion.div>
 
         <div className='px-3 text-center mt-12 text-lg'>
           <p className='text-slate-400 '>I am a continuous learner, always eager to expand my knowledge and skills. I am confident that my dedication to learning will allow me to master even more skills in the future.</p>
