@@ -2,6 +2,8 @@ import React from 'react'
 import sareen1 from '../assets/sareen1.png'
 import { Element } from 'react-scroll'
 
+import cv from '../assets/Sareen Ahamed.pdf'
+
 // motion
 import { motion } from 'framer-motion'
 // variant
@@ -24,7 +26,7 @@ const Home = () => {
             <p className='text-slate-400 py-1 text-lg md:text-xl'>I'm dedicated to crafting responsive and engaging websites that provide exceptional user experiences.</p>
           </div>
           <div>
-            <a href="#"><button className='bg-portGreen text-slate-700 font-semibold rounded px-3 py-1 hover:text-portGreen hover:bg-slate-700 m-2 duration-500 text-md md:text-lg'>Download CV</button></a>
+            <a href={cv}><button className='bg-portGreen text-slate-700 font-semibold rounded px-3 py-1 hover:text-portGreen hover:bg-slate-700 m-2 duration-500 text-md md:text-lg'>Download CV</button></a>
           </div>
         </motion.div>
 
