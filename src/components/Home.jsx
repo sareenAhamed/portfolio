@@ -22,7 +22,7 @@ const Home = () => {
 
           <div className='flex-col mb-5 '>
             <p className='text-slate-400 font-semibold py-1 text-xl md:text-2xl'>Hey, I'm <span className='text-3xl md:text-4xl text-slate-300'>Sareen Ahamed</span></p>
-            <p className='font-semibold text-portGreen text-5xl md:text-5xl py-1 mt-3'>Front End Developer</p>
+            <p className='font-semibold text-portGreen text-5xl md:text-5xl py-1 mt-3'>Full-Stack Developer</p>
             <p className='text-slate-400 py-1 text-lg md:text-xl'>I'm dedicated to crafting responsive and engaging websites that provide exceptional user experiences.</p>
           </div>
           <div>
